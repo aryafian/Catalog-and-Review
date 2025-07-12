@@ -14,7 +14,7 @@ Fitur Utama
 
   # 2. Halaman Detail Produk
 - Dynamic Routing: URL `/product/[id]` untuk setiap produk
-- **Complete Product Info**: Menampilkan semua detail produk
+- Complete Product Info: Menampilkan semua detail produk
 - Wishlist Management: Fungsi add/remove dari wishlist
 - Review Form: Form review dengan validasi lengkap
   - Nama (wajib diisi)
@@ -39,3 +39,13 @@ Fitur Utama
 - Icons: Lucide React
 - State Management: React Context API + localStorage
 - Form Handling: React Hook Form pattern dengan validasi custom
+
+  # Cara Setup:
+- Pastikan Node.js 18+ dan npm/yarn sudah terpasang.
+  Clone repository:
+  git clone https://github.com/aryafian/Catalog-and-Review.git
+- Masuk ke folder project dan install dependency:
+  npm install
+- Jalankan project:
+  npm run dev
+- Akses melalui browser di http://localhost:3000
